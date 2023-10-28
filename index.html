@@ -20,8 +20,11 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
 </head>
 <body>
+    <script src="index.js"></script>
    <!-- <div class="nav" style="text-align: center;">
         
         <div class="logo" style="float: left;">
@@ -54,6 +57,7 @@
         </div>
 
         <div class="right">
+            <button class="weaicon" onclick="geolocation(); openpage()"><img src="images/weather2.png"></button>
             <div class="location">
                 <select name="location" id="location">
                 <option value="hyderabad">Hyderabad</option>
@@ -63,11 +67,11 @@
                 <option value="Vishakapatnam">Vishakapatnam</option>
                 </select>
             </div>
-            <button>Sign in</button>
+            <button class="sign">Sign in</button>
             <i class="fa-solid fa-bars"></i>
         </div>
     </nav>
-    
+   
 
     <nav class="navbar2">
         <div class="head1">
@@ -83,14 +87,28 @@
   
     </div>
     <div class="head2">
+        <button onclick="darklight()"><img src="images/bulb.jpeg" alt="Toggle dark mode" class="bulb"></button>
         <a href="#" ><p>ListYourShows</p></a>
         <a href="#" ><p>Croporates</p></a>
         <a href="#" ><p>Offers</p></a>
         <a href="#" ><p>Gift Cards</p></a>
        </div>
+       <div id="coupon">
+        <button onclick="closeCoupon()" alt="close">&times;</button>
+    </div>
+    <div id="weatherCoupon">
+        <button onclick="closeWeather()" alt="close">&times;</button>
+        <p id="latitude">lhghf</p>
+        <p id="longitude">hg</p>
+        <p id="weather">hgh</p>
+    </div>
+    
     
     </nav>
-    <div class="container">
+    
+    <div id="opac" style="opacity: 1;">
+    <div class="container" id="opac" style="opacity: 1;">
+       
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -361,6 +379,7 @@
         </div>
     </div>
 </div>
+</div>
    <!--<div class="footer">
         <img src="/images/logo.png" alt="logo">
         <div class="icon">
@@ -412,6 +431,7 @@
                 <i class="fa-brands fa-youtube"></i>
             </div>
         </div>
+    
         <div class="copyrights">
             <div class="copyrighttext">
                 <span>Copyright © Bigtree Entertainment Pvt. Ltd. All rights Reserved.</span>
@@ -422,5 +442,8 @@
             </div>
         </div>
     </footer>
+    <script>
+        window.onload=onloadPage();
+    </script>
 </body>
 </html>

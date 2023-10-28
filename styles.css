@@ -53,8 +53,37 @@ text-align: center;
 display: flex;
 margin-right: 30px;
 }
+/*Weather*/
+#weatherCoupon{
+  height:300px;
+  width: 500px;
+  z-index: 100;
+  background-color: rgb(190, 201, 208);
+  visibility: hidden;
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 30%;
 
-.right button{
+}
+#weatherCoupon button{
+  width: 4%;
+  height: 35px;
+  float: right;
+  font-size: 25px;
+  border: none;
+  border-radius: 0px 10px 0px 10px;
+  z-index: 1;
+}
+
+#weatherCoupon p{
+  margin: 30px;
+  width:auto;
+  color: #000000;
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sign{
 width: 80px;
 height: 27px;
 background-color: rgb(252, 58, 91);
@@ -96,7 +125,18 @@ select{
   background-color:rgb(42, 42, 68) ;
 }
 
-
+.bulb{
+  height:30px;
+  margin-bottom: 5px;  
+}
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+body {
+  background-color: white;
+  color: black;
+}
 
   .navbar2{
     background-color: rgb(31, 31, 66);
@@ -137,7 +177,29 @@ select{
   height: 300px;
   width: 100%;
 }
-
+/*coupon*/
+#coupon{
+  height: 350px;
+  width:680px;
+  background-image: url(images/coupon.png);
+  background-size: cover;
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 30%;
+  z-index: 20;
+  visibility: hidden;
+  border-radius: 10px;
+}
+#coupon button {
+  width: 4%;
+  height: 35px;
+  float: right;
+  font-size: 25px;
+  border: none;
+  border-radius: 0px 10px 0px 10px;
+  z-index: 1;
+}
+/*image slider*/
 .imgSlider{
   width:100%;
   height:100% !important;
