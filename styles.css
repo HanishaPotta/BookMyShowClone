@@ -70,7 +70,7 @@ margin-right: 30px;
   height: 300px;
   z-index: 100;
   visibility: hidden;
-  /*background-color: #ffe6b3; /* Background color for the container */
+  
   border-radius: 50%; /* Make the container a circle */
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2); /* Create a soft shadow */
   position: absolute;
@@ -84,6 +84,7 @@ margin-right: 30px;
 
 
 #weatherCoupon button{
+  
   width: 35px;
   height: 35px;
   float:right;
