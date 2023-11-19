@@ -1,0 +1,108 @@
+[
+    {
+      "location_id": 1,
+      "location_name": "EVP Cinemas: Chennai",
+      "state_id": 1,
+      "state": "Chennai",
+      "country_name": "India"
+    },
+    {
+        "location_id": 2,
+        "location_name": "MAYAJAAL Multiplex: ECR, Chennai",
+        "state_id": 1,
+        "state": "Chennai",
+        "country_name": "India"
+      },
+      {
+        "location_id": 3,
+        "location_name": "PVR: Ampa Mall, Nelson Manickam Road",
+        "state_id": 1,
+        "state": "Chennai",
+        "country_name": "India"
+      },
+    {
+      "location_id": 4,
+      "location_name": "Asian Cineplanet Multiplex: Kompally",
+      "state_id": 2,
+      "state": "Hyderabad",
+      "country_name": "India"
+    },
+    {
+        "location_id": 5,
+        "location_name": "Cine Town Indra Nagendra: Karmanghat",
+        "state_id": 2,
+        "state": "Hyderabad",
+        "country_name": "India"
+      },
+      {
+        "location_id": 6,
+        "location_name": "Cinepolis: CCPL Mall Malkajgiri, Hyderabad",
+        "state_id": 2,
+        "state": "Hyderabad",
+        "country_name": "India"
+      },
+      {
+        "location_id": 7,
+        "location_name": "Mahalaxmi Complex, Kothapeta: Hyderabad",
+        "state_id": 2,
+        "state": "Hyderabad",
+        "country_name": "India"
+      },
+    {
+      "location_id": 8,
+      "location_name": "Cinepolis VIP: Lulu Mall, Bengaluru",
+      "state_id": 3,
+      "state": "Karnataka",
+      "country_name": "India"
+    },
+    {
+        "location_id": 9,
+        "location_name": "INOX: Garuda Mall, Magrath Road",
+        "state_id": 3,
+        "state": "Karnataka",
+        "country_name": "India"
+      },
+      {
+        "location_id": 10,
+        "location_name": "PVR: Gold, Orion Mall, Dr Rajkumar Road",
+        "state_id": 3,
+        "state": "Karnataka",
+        "country_name": "India"
+      },
+      {
+        "location_id": 11,
+        "location_name": "Cinephile HSR Layout: PNR Felicity Mall Haralur Rd",
+        "state_id": 3,
+        "state": "Karnataka",
+        "country_name": "India"
+      },
+
+    {
+      "location_id": 12,
+      "location_name": "INOX: CMR Central, Maddilapalem",
+      "state_id": 4,
+      "state": "Visakhapatnam",
+      "country_name": "India"
+    },
+    {
+        "location_id": 13,
+        "location_name": "STBL Cine World, Sheelanagar: Vizag",
+        "state_id": 4,
+        "state": "Visakhapatnam",
+        "country_name": "India"
+      },
+      {
+        "location_id": 14,
+        "location_name": "Jagadamba 70MM Premium Laser 4K Images: Vizag",
+        "state_id": 4,
+        "state": "Visakhapatnam",
+        "country_name": "India"
+      },
+      {
+        "location_id": 15,
+        "location_name": "AVR Saptagiri 2K: Chittivalasa",
+        "state_id": 4,
+        "state": "Visakhapatnam",
+        "country_name": "India"
+      }
+  ]
