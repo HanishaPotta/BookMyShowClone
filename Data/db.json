@@ -242,21 +242,21 @@
           "id": "b1",
           "user_id": "u1",
           "movie_id": "1",
-          "venue_id": "v1",
+          "location_id": "4",
           "seats": ["A1", "A2"],
           "total_amount": 21.98,
-          "booking_date": "2023-01-01",
-          "showtime": "2023-01-01 18:00"
+          //"booking_date": "2023-01-01",
+          //"showtime": "2023-01-01 18:00"
         },
         {
           "id": "b2",
           "user_id": "u2",
           "movie_id": "5",
-          "venue_id": "v2",
+          "location_id": "2",
           "seats": ["B3", "B4"],
           "total_amount": 51.98,
-          "booking_date": "2023-01-02",
-          "showtime": "2023-01-02 19:00"
+         // "booking_date": "2023-01-02",
+         // "showtime": "2023-01-02 19:00"
         }
         
       ]
