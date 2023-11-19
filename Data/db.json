@@ -223,41 +223,41 @@
       }
     ],
     "users": [
-      {
-        "userid": "6246c5bf85a49b3d4bab6cfe",
-        "title": "RRR",
-        "amount": 519,
-        "id": 1
-      },
-      {
-        "userid": "6246c5bf85a49b3d4bab6cfe",
-        "title": "RRR",
-        "amount": 285,
-        "id": 2
-      },
-      {
-        "userid": "6246c5bf85a49b3d4bab6cfe",
-        "title": "RRR",
-        "amount": 622,
-        "id": 3
-      },
-      {
-        "userid": "6246c5bf85a49b3d4bab6cfe",
-        "title": "RRR",
-        "amount": 262,
-        "id": 4
-      },
-      {
-        "userid": "6246c5bf85a49b3d4bab6cfe",
-        "title": "The Kashmir Files",
-        "amount": 1672,
-        "id": 5
-      },
-      {
-        "userid": "6246c5bf85a49b3d4bab6cfe",
-        "title": "RRR",
-        "amount": 441,
-        "id": 6
-      }
-    ]
+        {
+          "id": "u1",
+          "name": "John Doe",
+          "email": "john@example.com",
+          "phone": "1234567890"
+        },
+        {
+          "id": "u2",
+          "name": "Jane Smith",
+          "email": "jane@example.com",
+          "phone": "9876543210"
+        }
+       
+      ],
+      "bookings": [
+        {
+          "id": "b1",
+          "user_id": "u1",
+          "movie_id": "1",
+          "venue_id": "v1",
+          "seats": ["A1", "A2"],
+          "total_amount": 21.98,
+          "booking_date": "2023-01-01",
+          "showtime": "2023-01-01 18:00"
+        },
+        {
+          "id": "b2",
+          "user_id": "u2",
+          "movie_id": "5",
+          "venue_id": "v2",
+          "seats": ["B3", "B4"],
+          "total_amount": 51.98,
+          "booking_date": "2023-01-02",
+          "showtime": "2023-01-02 19:00"
+        }
+        
+      ]
   }
